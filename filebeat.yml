@@ -323,10 +323,10 @@ logging:
   # To enable logging to files, to_files option has to be set to true
   files:
     # The directory where the log files will written to.
-    #path: /var/log/mybeat
+    path: /var/log/mybeat
 
     # The name of the files where the logs are written to.
-    #name: mybeat
+    name: mybeat
 
     # Configure log file size limit. If limit is reached, log file will be
     # automatically rotated
@@ -342,6 +342,6 @@ logging:
 
   # Sets log level. The default log level is error.
   # Available log levels are: critical, error, warning, info, debug
-  #level: error
+  level: info
 
 
